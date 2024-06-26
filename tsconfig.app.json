@@ -11,9 +11,5 @@
       "@/*": ["./src/*"]
     },
     "types": ["vuetify"]
-  },
-  "files": [
-    "src/**/*.ts",
-    "src/Meta.ts"
-  ]
+  }
 }
