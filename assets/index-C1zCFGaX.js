@@ -1,0 +1,1 @@
+import{b as t}from"./index-DnT7Il3i.js";function r(){return t({url:"/machine",method:"get"})}function c(e){return t({url:`/machine/${e}`,method:"get"})}function h(e,n){return t({url:`/machine/${e}`,method:"patch",data:n})}function i(e){return t({url:`/machine/${e}`,method:"delete"})}export{i as d,c as g,r as l,h as p};
