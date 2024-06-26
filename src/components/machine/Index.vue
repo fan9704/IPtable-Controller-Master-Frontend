@@ -30,7 +30,7 @@ const findAllMachines = async () => {
 const deleteById = async (id: string) => {
   await deleteMachineById(id);
   swal.fire('刪除成功', "網路規則刪除成功", "success");
-  findAllNetworkRecords();
+  listMachines();
 };
 
 onMounted(() => {
